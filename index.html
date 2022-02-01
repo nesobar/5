@@ -21,7 +21,13 @@
 <br>
 <a href="burogu.html">ブログ</a>
 <br>
-<input type="password" name="裏垢入口" size="30" maxlength="30">
+<script type="text/javascript">
+   function gate() {
+      var UserInput = prompt("パスワードを入力して下さい:","");
+      location.href = UserInput + ".html";
+   }
+</script>
+<input type="button" value="パスワードを入力して秘密のページへアクセスする" onclick="gate();">
 <body>
 <div>
  
